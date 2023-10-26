@@ -1,0 +1,76 @@
+.nav{
+    background-color: #fdfafa;
+}
+.nav li {
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+    width: 250px;
+    
+}
+
+.nav ul {
+    overflow: auto;
+    text-align: center; 
+      
+  }
+  .nav li a {
+    text-decoration: none;
+    color: black;
+    
+  }
+  .nav li:hover{
+    background-color: limegreen;
+    color: red;
+  }
+  .nav li a:hover{
+    color: red;
+  }
+  .mark{
+    background-color: aliceblue;
+  }
+  .mark img{
+    height: 400px;
+    width: 100%;
+    direction: left;
+  }
+  .pic img{
+    width: 98%;
+    height: 450px;
+    text-align: center;
+    color: aliceblue;
+    transition: transform .2s;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    border: yellow 2px solid;
+  }
+  .title{
+    color: white;
+    text-align: center ;
+    font-size: xx-large;
+
+  }
+  h3{
+    font-size: xx-large;
+    background-color: rgb(14, 60, 100);
+  }
+  .row{
+    float: left;
+    width: 300px;
+    margin: 5px;
+    overflow: hidden;
+
+  }
+  .pic img{
+    transition: width 2s, hight 2s;
+  }
+  .pic img:hover{
+    transform: scale(1.1);
+  }
+  .dis p{
+    font-size: xx-large;
+  }
+  
+  
